@@ -4,7 +4,7 @@ Write a function called reverseArr which takes an array as an argument which ret
 
 ## Whiteboard Process
 
-![reverseArr function ]()
+![reverseArr function ](https://github.com/motasimalazzam/401-data-structures-and-algorithms/blob/main/challenges/reverse-array/Screenshot%20(41).png)
 
 ## Approach & Efficiency
 

@@ -7,3 +7,4 @@ Challenge         | README.md                                                   
 reverse-array     | [README](https://github.com/motasimalazzam/401-data-structures-and-algorithms/blob/main/challenges/reverse-array/README.md)         |[Code](https://github.com/motasimalazzam/401-data-structures-and-algorithms/blob/main/challenges/reverse-array/reverseArray.java)
 array-insert-shift| [README](https://github.com/motasimalazzam/401-data-structures-and-algorithms/blob/main/challenges/array-insert-shift/README.MD)    | [Code](https://github.com/motasimalazzam/401-data-structures-and-algorithms/blob/main/challenges/array-insert-shift/array-insert-shift.java)
 linked-list       | [README](challenges/linked-list/lib/src/main/java/linkedList/README.md)            | [Code](challenges/linked-list/lib/src/main/java/linkedList)
+array-binary-search| [README](challenges/array-binary-search/README.md)| [Code](challenges/array-binary-search/array-binary-search.java)

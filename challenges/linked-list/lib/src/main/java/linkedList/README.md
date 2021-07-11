@@ -1,28 +1,29 @@
 # Singly Linked List
 
-A linked list is a way to store a collection of elements. Like an array, these can be characters or integers. Each element in a linked list is stored in the form of a node.
+The linked List class is a linear data structure. Also it can contain many objects of the same type and we can add items, change items and remove items.
 
 ## Challenge
 
-In this Challenge, We had Node and LinkedList that applied some methods to display the values of our Nodes inside the LinkedList according to their addresses by inserting a new one instead of the first node that took the head place and tests some values if there are inside our nodes or not by the boolean method that gives us true or false. Finally, the results should be string.
+This challenge about how to using a linked list to store nodes in it and also how to apply methods on it like add method to add new node in the linkecd list or view method to display the nods in the list.
 
 ## Approach & Efficiency
 
-•    Verify Big O(1) of written code.
+* Verify Big O(1) of written code.
 
-•    Verify code matches algorithm.
+* Verify code matches algorithm.
 
-•    Explain testing according to inputs and outputs.
 
 ## API
 
-*insert()* : To add a new Node to LinkedList 
+###  Methods in LinkedList Class
 
-*view()* : To display our Nodes by considering every address != null 
+* `insert(Node newNode)`: This method accepts a `Node` parameter and its purpose to add a new *Node* in the LinkedList.
 
-*isInclude()* : To test our Nodes' values if they are found so the test gives us true or return false.
+* `view()`: This method to display the Nodes by considering every address != null 
 
-*stringPath()* : To get String result.
+* `isInclude(Node head, int item)`: This method accepts a `Node` parameter and `int` parameter and its purpose to test our Nodes' values if they are found so the test gives us true or return false.
+
+* `stringPath()`: This method to show us the path for the nodes as a text.
 
 # Checked List Of Linked List Code Challenge:
 

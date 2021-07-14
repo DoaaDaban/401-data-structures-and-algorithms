@@ -19,7 +19,6 @@ This challenge about how to using a linked list to store nodes in it and also ho
 
 * `insert(Node newNode)`: This method accepts a `Node` parameter and its purpose to add a new *Node* in the LinkedList.
 
-* `view()`: This method to display the Nodes by considering every address != null 
 
 * `isInclude(Node head, int item)`: This method accepts a `Node` parameter and `int` parameter and its purpose to test our Nodes' values if they are found so the test gives us true or return false.
 

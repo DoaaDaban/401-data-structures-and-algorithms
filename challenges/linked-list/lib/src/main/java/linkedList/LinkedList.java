@@ -1,32 +1,37 @@
 package linkedList;
 
-public class LinkedList {
+public class LinkedList<T> {
 
-    Node head;
+    Node<T> head;
+    int size; // this value for test
 
-    public LinkedList(Node head) {
-        this.head = head;
+    public LinkedList() {
+
+        this.head = null;
     }
 
-    public void insert (Node newNode){
-        newNode.next = head;
-        head = newNode;
-    }
-
-    public void view(){
-        Node firstNode = head;
-        while ((firstNode!=null)){
-            System.out.println(firstNode.getData());
-            firstNode=firstNode.next;
+//    ADD NODES TO THE LIST
+    public void insert (T data){
+        Node<T> newNode = new Node<T>(data);
+        Node<T> temp;
+        if(head == null){
+            head =newNode;
+        }else{
+            temp = head;
+            head = newNode;
+            head.next = temp;
         }
+        size ++;
     }
 
-    public boolean isInclude(Node head, int item){
-        Node node = head;
+
+//    CHECK IF THE NODE IS INCLUDED IN THE LIST OR NOT
+    public boolean isInclude(T data){
+        Node<T> node = head;
 
         while (node != null)
         {
-            if (node.getData() == item){
+            if (node.getData() == data){
                 return true;
             }
 
@@ -36,9 +41,70 @@ public class LinkedList {
         return false;
     }
 
+
+// ADD NEW NODE AT THE END OF THE LINKED LIST
+    public void addNewNodeAtEnd(T data) {
+        Node<T> newNode = new Node<T>(data);
+        if (head == null){
+
+            head = newNode;
+
+        }else{
+
+            Node<T> temp = head;
+            while(temp.next != null){
+                temp = temp.next;
+            }
+            temp.next = newNode;
+        }
+        size ++;
+    }
+
+//    ADD NEW NODE BEFORE THE SPECIFIC NODE
+
+    public void addNewNodeBefore(T refNodeData, T newNodeData){
+        Node<T> newNode = new Node<T>(newNodeData);
+        if(head == null){
+            head = newNode;
+        }else if(refNodeData == head.getData()){
+            newNode.next = head;
+            head = newNode;
+        }else{
+            Node<T> temp = head;
+            while (temp.next.getData() != refNodeData){
+                temp = temp.next;
+            }
+            newNode.next = temp.next;
+            temp.next = newNode;
+
+        }
+        size ++;
+    }
+
+//    ADD NEW NODE AFTER THE SPECIFIC NODE
+
+    public void  addNewNodeAfter(T refNodeData, T newNodeData ){
+
+        Node<T> newNode = new Node<T>(newNodeData);
+
+        if(head == null){
+            head = newNode;
+        }else{
+            Node<T> temp = head;
+
+            while (temp.getData() != refNodeData){
+                temp = temp.next;
+            }
+            newNode.next = temp.next;
+            temp.next = newNode;
+        }
+        size ++;
+    }
+
+//
     public String stringPath(){
         String path = "";
-        Node node = head;
+        Node<T> node = head;
 
         while (node != null){
             path += "{ ";
@@ -50,5 +116,7 @@ public class LinkedList {
         path += "Null";
         return  "LinkedList = " +path;
     }
+
+
 
 }

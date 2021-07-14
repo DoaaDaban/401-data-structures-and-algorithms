@@ -101,7 +101,34 @@ public class LinkedList<T> {
         size ++;
     }
 
-//
+    public T kthFromEnd(int k){
+        int maxIdx = size - 1;
+        int idxValue = maxIdx - k;
+
+        Node<T> temp = head;
+        int n = 0;
+
+
+        if(k >= size || k < 0){
+            return null;
+        }
+        else if(idxValue == n){
+            return temp.getData();
+        }else {
+            while (idxValue != n){
+                temp = temp.next;
+                n++;
+
+            }
+            return temp.getData();
+
+        }
+
+    }
+
+
+
+
     public String stringPath(){
         String path = "";
         Node<T> node = head;

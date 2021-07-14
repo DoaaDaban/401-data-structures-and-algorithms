@@ -12,12 +12,12 @@ This challenge has three tasks:
 
 ### Append 
 
-![Append](/challenges/linked-list/lib/src/main/java/linkedList/code-06-addNodeAtTheEnd.png)
+![Append](/challenges/linked-list/lib/src/main/java/linkedList/image/code-06-addNodeAtTheEnd.png)
 
 ### Insert before
 
-![Insert before](/challenges/linked-list/lib/src/main/java/linkedList/code-06-addNodeBefore.png)
+![Insert before](/challenges/linked-list/lib/src/main/java/linkedList/image/code-06-addNodeBefore.png)
 
 ### Insert after
 
-![Insert after](/challenges/linked-list/lib/src/main/java/linkedList/code-06-addNodeAfter.png)
+![Insert after](/challenges/linked-list/lib/src/main/java/linkedList/image/code-06-addNodeAfter.png)

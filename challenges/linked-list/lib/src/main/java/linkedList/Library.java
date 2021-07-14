@@ -14,6 +14,7 @@ public class Library {
 //        ADD NODES TO THE LIST
         linkedList.insert(8);
         linkedList.insert(9);
+        linkedList.insert(6);
 
 //        CHECK IF THE NODE IN THE LIST OR NOT
         if(linkedList.isInclude(7)){
@@ -42,6 +43,13 @@ public class Library {
 
 //        PRINT THE PATH OF THE NODES
         System.out.println(linkedList.stringPath());
+
+//        <<<< CODE CHALLENGE 7 >>>
+
+        System.out.println(linkedList.kthFromEnd(0));
+        System.out.println(linkedList.kthFromEnd(3));
+        System.out.println(linkedList.kthFromEnd(-1));
+        System.out.println(linkedList.kthFromEnd(100));
 
 
 

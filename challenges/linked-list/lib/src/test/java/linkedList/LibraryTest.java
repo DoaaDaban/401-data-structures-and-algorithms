@@ -38,4 +38,29 @@ class LibraryTest {
         Assertions.assertFalse(testList.isInclude(100) );
         Assertions.assertEquals("LinkedList = { 10 } --> { 15 } --> { 8 } --> { 16 } --> { 9 } --> Null" , testList.stringPath());
     }
+
+//    <<<< CODE CHALLENGE 7 >>>
+
+    @Test
+    public void kthTest(){
+        LinkedList<Integer> testList = new LinkedList<>();
+        testList.insert(10);
+        testList.insert(8);
+        testList.insert(9);
+        testList.insert(7);
+        Assertions.assertEquals(4, testList.size);
+        Assertions.assertEquals(9,testList.kthFromEnd(2));
+        Assertions.assertNull(testList.kthFromEnd(-1));
+        Assertions.assertNull(testList.kthFromEnd(4));
+        Assertions.assertNull(testList.kthFromEnd(5));
+    }
+
+    @Test
+    public void sizeOneOfLinkedList(){
+        LinkedList<Integer> testList = new LinkedList<>();
+        testList.insert(10);
+        Assertions.assertEquals(1, testList.size);
+        Assertions.assertEquals(10,testList.kthFromEnd(0));
+
+    }
 }

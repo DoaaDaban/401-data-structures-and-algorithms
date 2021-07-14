@@ -8,3 +8,4 @@ reverse-array     | [README](https://github.com/motasimalazzam/401-data-structur
 array-insert-shift| [README](https://github.com/motasimalazzam/401-data-structures-and-algorithms/blob/main/challenges/array-insert-shift/README.MD)    | [Code](https://github.com/motasimalazzam/401-data-structures-and-algorithms/blob/main/challenges/array-insert-shift/array-insert-shift.java)
 linked-list       | [README](challenges/linked-list/lib/src/main/java/linkedList/README.md)            | [Code](challenges/linked-list/lib/src/main/java/linkedList)
 Linked-list-lnsertions| [README](challenges/linked-list/lib/src/main/java/linkedList/README-code-6.md)| [Code](challenges/linked-list/lib/src/main/java/linkedList)
+array-binary-search| [README](challenges/array-binary-search/README.md)| [Code](challenges/array-binary-search/array-binary-search.java)

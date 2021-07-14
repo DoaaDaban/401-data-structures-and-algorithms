@@ -1,21 +1,14 @@
 package linkedList;
 
-public class Node {
+public class Node<T>{
+    private T data;
     public Node next;
-    private int data;
 
-    public Node(int data, Node next) {
+    public Node(T data) {
         this.data = data;
-        this.next = next;
     }
 
-
-
-    public int getData() {
+    public T getData() {
         return data;
-    }
-
-    public void setData(int data) {
-        this.data = data;
     }
 }

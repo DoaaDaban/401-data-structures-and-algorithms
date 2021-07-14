@@ -7,26 +7,42 @@ public class Library {
 
     public static void main(String[] args) {
 
-        LinkedList linkedList = new LinkedList(new Node(7,null));
+        LinkedList<Integer> linkedList = new LinkedList<>();
 
-        linkedList.insert(new Node(8,null));
-        linkedList.insert(new Node(9,null));
+//        <<<< CODE CHALLENGE 5 >>>
 
-        linkedList.view();
+//        ADD NODES TO THE LIST
+        linkedList.insert(8);
+        linkedList.insert(9);
 
-        if(linkedList.isInclude(linkedList.head, 7)){
+//        CHECK IF THE NODE IN THE LIST OR NOT
+        if(linkedList.isInclude(7)){
             System.out.println("It is include");
         }else{
             System.out.println("It is NOT include");
         }
 
-        if(linkedList.isInclude(linkedList.head, 10)){
+        if(linkedList.isInclude(8)){
             System.out.println("It is include");
         }else{
-            System.out.println("It is include");
+            System.out.println("It is NOT include");
         }
 
+
+//        <<<< CODE CHALLENGE 6 >>>
+
+//        ADD NEW NODE AT THE END OF THE LIST
+        linkedList.addNewNodeAtEnd(10);
+
+//        ADD NEW NODE BEFORE THE SPECIFIC NODE
+        linkedList.addNewNodeBefore(8,15);
+
+//        ADD NEW NODE AFTER THE SPECIFIC NODE
+        linkedList.addNewNodeAfter(8,16);
+
+//        PRINT THE PATH OF THE NODES
         System.out.println(linkedList.stringPath());
+
 
 
 

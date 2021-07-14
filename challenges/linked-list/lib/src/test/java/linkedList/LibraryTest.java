@@ -3,11 +3,39 @@
  */
 package linkedList;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class LibraryTest {
-    @Test void someLibraryMethodReturnsTrue() {
-        Library classUnderTest = new Library();
-        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
+    @Test
+    public void isEmptyTest() {
+        LinkedList<Integer> testList = new LinkedList<>();
+        Assertions.assertTrue( testList.size >= 0 );
+
+    }
+
+    @Test
+    public void addNewNodeAtEndTest() {
+        LinkedList<Integer> testList = new LinkedList<>();
+        testList.addNewNodeAtEnd(6);
+        testList.addNewNodeAtEnd(7);
+        Assertions.assertEquals(2, testList.size);
+
+    }
+
+
+    @Test
+    public void addBeforeAndAfterTest() {
+        LinkedList<Integer> testList = new LinkedList<>();
+        testList.addNewNodeAtEnd(10);
+        testList.addNewNodeAtEnd(8);
+        testList.addNewNodeAtEnd(9);
+        testList.addNewNodeBefore(8 , 15);
+        testList.addNewNodeAfter(8 , 16);
+        Assertions.assertEquals(10 , testList.head.getData());
+        Assertions.assertEquals(5, testList.size);
+        Assertions.assertTrue(testList.isInclude(10) );
+        Assertions.assertFalse(testList.isInclude(100) );
+        Assertions.assertEquals("LinkedList = { 10 } --> { 15 } --> { 8 } --> { 16 } --> { 9 } --> Null" , testList.stringPath());
     }
 }

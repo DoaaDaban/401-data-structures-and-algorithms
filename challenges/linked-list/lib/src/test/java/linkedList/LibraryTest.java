@@ -6,6 +6,8 @@ package linkedList;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static linkedList.LinkedList.zipLists;
+
 class LibraryTest {
     @Test
     public void isEmptyTest() {
@@ -61,6 +63,66 @@ class LibraryTest {
         testList.insert(10);
         Assertions.assertEquals(1, testList.size);
         Assertions.assertEquals(10,testList.kthFromEnd(0));
+
+    }
+
+    //    <<<< CODE CHALLENGE 8 >>>
+
+    @Test
+    public void zipListsTest(){
+        LinkedList<Integer> linkedList1 = new LinkedList<>();
+        LinkedList<Integer> linkedList2 = new LinkedList<>();
+
+        linkedList1.insert(1);
+        linkedList1.insert(2);
+        linkedList1.insert(3);
+
+        linkedList2.insert(4);
+        linkedList2.insert(5);
+        linkedList2.insert(6);
+
+        Assertions.assertEquals(3, linkedList1.size);
+        Assertions.assertEquals(3, linkedList2.size);
+        Assertions.assertEquals(6, zipLists(linkedList1, linkedList2).size);
+        Assertions.assertEquals("LinkedList = { 3 } --> { 6 } --> { 2 } --> { 5 } --> { 1 } --> { 4 } --> Null" , zipLists(linkedList1, linkedList2).stringPath());
+
+    }
+
+    @Test
+    public void zipListsFirstListLargest(){
+        LinkedList<Integer> linkedList1 = new LinkedList<>();
+        LinkedList<Integer> linkedList2 = new LinkedList<>();
+
+        linkedList1.insert(1);
+        linkedList1.insert(2);
+        linkedList1.insert(3);
+
+        linkedList2.insert(4);
+        linkedList2.insert(5);
+
+        Assertions.assertEquals(3, linkedList1.size);
+        Assertions.assertEquals(2, linkedList2.size);
+        Assertions.assertEquals(5, zipLists(linkedList1, linkedList2).size);
+        Assertions.assertEquals("LinkedList = { 3 } --> { 5 } --> { 2 } --> { 4 } --> { 1 } --> Null" , zipLists(linkedList1, linkedList2).stringPath());
+
+    }
+
+    @Test
+    public void zipListsFirstListSmallest(){
+        LinkedList<Integer> linkedList1 = new LinkedList<>();
+        LinkedList<Integer> linkedList2 = new LinkedList<>();
+
+        linkedList1.insert(1);
+        linkedList1.insert(2);
+
+        linkedList2.insert(3);
+        linkedList2.insert(4);
+        linkedList2.insert(5);
+
+        Assertions.assertEquals(2, linkedList1.size);
+        Assertions.assertEquals(3, linkedList2.size);
+        Assertions.assertEquals(5, zipLists(linkedList1, linkedList2).size);
+        Assertions.assertEquals("LinkedList = { 2 } --> { 5 } --> { 1 } --> { 4 } --> { 3 } --> Null" , zipLists(linkedList1, linkedList2).stringPath());
 
     }
 }

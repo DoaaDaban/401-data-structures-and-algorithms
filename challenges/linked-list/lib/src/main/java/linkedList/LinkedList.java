@@ -101,6 +101,9 @@ public class LinkedList<T> {
         size ++;
     }
 
+
+// FIND ELEMENT FROM THE END OF LINKED LIST DEPENDS ON THE K VALUE
+
     public T kthFromEnd(int k){
         int maxIdx = size - 1;
         int idxValue = maxIdx - k;
@@ -126,6 +129,40 @@ public class LinkedList<T> {
 
     }
 
+//    ZIP THE TWO LINKED LIST LISTS TOGETHER INTO ONE LINKED LIST
+    public static LinkedList zipLists(LinkedList list1, LinkedList list2){
+
+        Node node1 = list1.head;
+        Node node2 = list2.head;
+        LinkedList zipLists = new LinkedList();
+
+        int length;
+
+        if(list1.size> list2.size){
+            length = list1.size;
+        }else if(list1.size< list2.size){
+            length = list2.size;
+        }else{
+            length = list1.size;
+        }
+
+        while (length > 0){
+
+            if(node1 != null){
+                zipLists.addNewNodeAtEnd(node1.getData());
+                node1 = node1.next;
+            }
+
+            if(node2 != null){
+                zipLists.addNewNodeAtEnd(node2.getData());
+                node2 = node2.next;
+            }
+
+            length --;
+
+        }
+        return zipLists;
+    }
 
 
 

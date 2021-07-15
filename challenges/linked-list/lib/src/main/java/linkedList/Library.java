@@ -3,7 +3,11 @@
  */
 package linkedList;
 
+import static linkedList.LinkedList.zipLists;
+
 public class Library {
+
+
 
     public static void main(String[] args) {
 
@@ -52,7 +56,24 @@ public class Library {
         System.out.println(linkedList.kthFromEnd(100));
 
 
+//        <<<< CODE CHALLENGE 8 >>>
 
+
+        LinkedList<Integer> linkedList1 = new LinkedList<>();
+        LinkedList<Integer> linkedList2 = new LinkedList<>();
+
+        linkedList1.insert(1);
+        linkedList1.insert(2);
+        linkedList2.insert(3);
+        linkedList2.insert(4);
+        linkedList2.insert(5);
+//        linkedList2.insert(6);
+
+        System.out.println("lis1 "+linkedList1.stringPath());
+        System.out.println("list2 "+linkedList2.stringPath());
+
+        zipLists(linkedList1, linkedList2);
+        System.out.println("zipLists "+zipLists(linkedList1, linkedList2).stringPath());
 
     }
 }

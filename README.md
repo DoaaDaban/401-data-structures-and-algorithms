@@ -11,3 +11,4 @@ Linked-list-lnsertions| [README](challenges/linked-list/lib/src/main/java/linked
 array-binary-search| [README](challenges/array-binary-search/README.md)| [Code](challenges/array-binary-search/array-binary-search.java)
 linked-list-kth    | [README](challenges/linked-list/lib/src/main/java/linkedList/README-code-7.md)| [Code](challenges/linked-list/lib/src/main/java/linkedList)
 linked-list-zip | [README](challenges/linked-list/lib/src/main/java/linkedList/README-code-8.md) | [Code](challenges/linked-list/lib/src/main/java/linkedList)
+stack-and-queue | [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README.md)| [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue)

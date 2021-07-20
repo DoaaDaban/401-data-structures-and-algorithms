@@ -12,3 +12,4 @@ array-binary-search| [README](challenges/array-binary-search/README.md)| [Code](
 linked-list-kth    | [README](challenges/linked-list/lib/src/main/java/linkedList/README-code-7.md)| [Code](challenges/linked-list/lib/src/main/java/linkedList)
 linked-list-zip | [README](challenges/linked-list/lib/src/main/java/linkedList/README-code-8.md) | [Code](challenges/linked-list/lib/src/main/java/linkedList)
 stack-and-queue | [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README.md)| [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue)
+stack-queue-pseudo| [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README-code11.md)| [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue/PseudoQueue.java)

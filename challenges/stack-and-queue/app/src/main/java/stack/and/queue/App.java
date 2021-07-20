@@ -5,7 +5,7 @@ package stack.and.queue;
 
 public class App  {
 
-    public static void main(String[] args) {
+    public static void  main(String[] args) throws IllegalArgumentException {
 
         Stack<Integer> stack = new Stack<>();
 
@@ -31,12 +31,36 @@ public class App  {
         queue.dequeue();
         queue.dequeue();
         queue.dequeue();
-        queue.peek();
 
         System.out.println(queue);
         System.out.println(queue.isEmpty());
-        System.out.println(queue.peek());
+//        System.out.println(queue.peek());
         queue.dequeue();
+
+
+//        <<<< code challenge 11 >>>
+
+        PseudoQueue stack1 = new PseudoQueue();
+
+        stack1.enqueue(20);
+        stack1.enqueue(15);
+        stack1.enqueue(10);
+
+        System.out.println(stack1);
+
+
+        stack1.enqueue(5);
+        System.out.println(stack1);
+
+        System.out.println(stack1.dequeue());
+        System.out.println(stack1);
+
+        System.out.println(stack1.dequeue());
+        System.out.println(stack1);
+
+        stack1.enqueue(7);
+        System.out.println(stack1);
+
 
     }
 }

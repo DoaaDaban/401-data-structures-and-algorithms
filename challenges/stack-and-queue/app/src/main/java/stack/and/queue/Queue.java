@@ -19,10 +19,11 @@ public class Queue<T> {
         this.rear = newNode;
     }
 
-    public int dequeue() {
+    public Integer dequeue() {
 
         if(this.front == null){
-            throw new IllegalArgumentException("Empty");
+            System.out.println("No values to dequeue, the queue is empty");
+            return null;
         }else{
             Node temp = this.front;
             this.front = this.front.next;

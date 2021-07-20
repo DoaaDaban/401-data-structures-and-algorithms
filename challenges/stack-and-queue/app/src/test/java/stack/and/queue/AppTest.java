@@ -6,6 +6,7 @@ package stack.and.queue;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+
 public class AppTest {
 
 //    <<< CODE CHALLENGE 10 >>>
@@ -87,7 +88,7 @@ public class AppTest {
         queueTest.dequeue();
         assertTrue(queueTest.isEmpty());
         assertEquals("Queue { Null }",queueTest.toString());
-        assertEquals( IllegalArgumentException.class,queueTest.dequeue());
+        assertEquals( null,queueTest.dequeue());
         assertNull(queueTest.peek());
     }
 
@@ -97,9 +98,41 @@ public class AppTest {
         queueTest.enqueue(11);
         queueTest.enqueue(7);
         queueTest.enqueue(2021);
-        assertEquals(11,queueTest.peek());
+        assertEquals( java.util.Optional.of(11), java.util.Optional.ofNullable(queueTest.peek()));
         queueTest.dequeue();
-        assertEquals(7,queueTest.peek());
+        assertEquals(java.util.Optional.of(7),java.util.Optional.ofNullable(queueTest.peek()));
+    }
+
+    //    <<<< code challenge 11 >>>
+
+    @Test
+    public void enqueueTest(){
+
+        PseudoQueue pseudoQueue = new PseudoQueue();
+
+        pseudoQueue.enqueue(11);
+        assertEquals("Stack { 11 --> Null }",pseudoQueue.toString());
+        pseudoQueue.enqueue(6);
+        pseudoQueue.enqueue(2017);
+        assertEquals(11,pseudoQueue.stack1.peek());
+        assertEquals("Stack { 11 --> 6 --> 2017 --> Null }",pseudoQueue.toString());
+        assertFalse(pseudoQueue.stack1.isEmpty());
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void dequeueTest(){
+        PseudoQueue pseudoQueue = new PseudoQueue();
+        pseudoQueue.enqueue(11);
+        pseudoQueue.enqueue(6);
+        pseudoQueue.enqueue(2017);
+
+        assertEquals(11 ,pseudoQueue.dequeue());
+        assertEquals("Stack { 6 --> 2017 --> Null }",pseudoQueue.toString());
+        pseudoQueue.dequeue();
+        pseudoQueue.dequeue();
+        assertTrue(pseudoQueue.stack1.isEmpty());
+        assertEquals("Stack { Null }",pseudoQueue.toString());
+        assertEquals(new IllegalArgumentException("Empty"),pseudoQueue.dequeue());
     }
 
 }

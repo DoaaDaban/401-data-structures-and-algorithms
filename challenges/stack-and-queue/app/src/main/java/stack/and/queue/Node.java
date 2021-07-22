@@ -1,14 +1,14 @@
 package stack.and.queue;
 
-public class Node {
+public class Node<T> {
     public Node next;
-    private int data;
+    private T data;
 
-    public Node(int data){
+    public Node(T data){
         this.data = data;
     }
 
-    public int getData() {
+    public T getData() {
         return data;
     }
 }

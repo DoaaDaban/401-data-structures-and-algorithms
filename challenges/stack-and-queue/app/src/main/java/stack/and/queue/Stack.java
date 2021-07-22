@@ -2,10 +2,10 @@ package stack.and.queue;
 
 public class Stack<T> {
 
-    Node top;
+    Node<T> top;
 
     public void push(int value){
-        Node newNode = new Node(value);
+        Node<T> newNode = new Node(value);
         if (top == null){
             top = newNode;
         }else{
@@ -23,7 +23,7 @@ public class Stack<T> {
         if(top == null){
             throw new IllegalArgumentException("Empty");
         }else{
-            popped = top.getData();
+            popped = (int) top.getData();
             top = top.next;
         }
         return popped;
@@ -33,7 +33,7 @@ public class Stack<T> {
         if(top == null){
             throw new IllegalArgumentException("Empty");
         }else{
-            return top.getData();
+            return (int) top.getData();
         }
     }
 

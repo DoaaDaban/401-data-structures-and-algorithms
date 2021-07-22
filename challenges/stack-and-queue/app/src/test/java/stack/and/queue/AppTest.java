@@ -135,4 +135,42 @@ public class AppTest {
         assertEquals(new IllegalArgumentException("Empty"),pseudoQueue.dequeue());
     }
 
+
+    //    <<<< code challenge 12 >>>
+
+    @Test
+    public void enqueueAnimalShelterTest(){
+
+        AnimalShelter shelterTest = new AnimalShelter();
+
+        shelterTest.enqueue(new Cat("looz"));
+        shelterTest.enqueue(new Cat("meghem"));
+        assertEquals("AnimalShelter { catQueue = Queue { looz --> meghem --> Null }, dogQueue = Queue { Null } }",shelterTest.toString());
+        assertEquals("looz", shelterTest.catQueue.peek().toString());
+
+        shelterTest.enqueue(new Dog("husky"));
+        shelterTest.enqueue(new Dog("oklah"));
+        assertEquals("AnimalShelter { catQueue = Queue { looz --> meghem --> Null }, dogQueue = Queue { husky --> oklah --> Null } }",shelterTest.toString());
+        assertEquals("husky", shelterTest.dogQueue.peek().toString());
+
+        assertFalse(shelterTest.catQueue.isEmpty());
+        assertFalse(shelterTest.dogQueue.isEmpty());
+
+        shelterTest.dequeue("cat");
+        assertEquals("AnimalShelter { catQueue = Queue { meghem --> Null }, dogQueue = Queue { husky --> oklah --> Null } }",shelterTest.toString());
+
+        shelterTest.dequeue("dog");
+        assertEquals("AnimalShelter { catQueue = Queue { meghem --> Null }, dogQueue = Queue { oklah --> Null } }",shelterTest.toString());
+
+        shelterTest.dequeue("cat");
+        shelterTest.dequeue("dog");
+        assertEquals("AnimalShelter { catQueue = Queue { Null }, dogQueue = Queue { Null } }",shelterTest.toString());
+        assertTrue(shelterTest.catQueue.isEmpty());
+        assertTrue(shelterTest.dogQueue.isEmpty());
+
+        assertNull(shelterTest.dequeue("cat"));
+        assertNull(shelterTest.dequeue("dog"));
+
+    }
+
 }

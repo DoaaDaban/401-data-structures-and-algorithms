@@ -1,15 +1,15 @@
 package stack.and.queue;
 
 public class Queue<T> {
-    Node front;
-    Node rear;
+    Node<T> front;
+    Node<T> rear;
 
     public Queue(){
         this.front = this.rear = null;
     }
 
-    public void enqueue(int value){
-        Node newNode = new Node(value);
+    public void enqueue(T value){
+        Node<T> newNode = new Node<>(value);
 
         if(this.rear == null){
             this.front = this.rear = newNode;
@@ -19,7 +19,7 @@ public class Queue<T> {
         this.rear = newNode;
     }
 
-    public Integer dequeue() {
+    public T dequeue() {
 
         if(this.front == null){
             System.out.println("No values to dequeue, the queue is empty");
@@ -27,11 +27,11 @@ public class Queue<T> {
         }else{
             Node temp = this.front;
             this.front = this.front.next;
-            return temp.getData();
+            return (T) temp.getData();
         }
     }
 
-    public int peek(){
+    public T peek(){
         if(front == null){
             throw new IllegalArgumentException("Empty");
         }else{

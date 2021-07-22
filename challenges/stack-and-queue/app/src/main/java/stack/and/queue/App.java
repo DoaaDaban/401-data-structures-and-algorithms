@@ -3,6 +3,8 @@
  */
 package stack.and.queue;
 
+import org.checkerframework.checker.units.qual.C;
+
 public class App  {
 
     public static void  main(String[] args) throws IllegalArgumentException {
@@ -60,6 +62,32 @@ public class App  {
 
         stack1.enqueue(7);
         System.out.println(stack1);
+
+
+//        <<<< code challenge 12 >>>
+
+        AnimalShelter shelter = new AnimalShelter();
+
+        shelter.enqueue(new Cat("looz"));
+        shelter.enqueue(new Cat("sugar"));
+        shelter.enqueue(new Cat("mejhem"));
+
+
+        shelter.enqueue(new Dog("oklah"));
+        shelter.enqueue(new Dog("oreo"));
+        shelter.enqueue(new Dog("husky"));
+
+        System.out.println(shelter);
+        System.out.println(shelter.catQueue.peek().toString());
+
+        shelter.dequeue("cat");
+        System.out.println(shelter);
+
+        shelter.dequeue("dog");
+        System.out.println(shelter);
+
+
+
 
 
     }

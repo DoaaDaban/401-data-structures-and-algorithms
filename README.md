@@ -14,3 +14,4 @@ linked-list-zip | [README](challenges/linked-list/lib/src/main/java/linkedList/R
 stack-and-queue | [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README.md)| [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue)
 stack-queue-pseudo| [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README-code11.md)| [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue/PseudoQueue.java)
 stack-queue-animal-shelter| [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README-code12.md)| [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue/AnimalShelter.java)
+stack-queue-brackets | [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README-code13.md) | [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue/ValidateBrackets.java)

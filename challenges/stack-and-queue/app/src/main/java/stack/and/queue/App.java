@@ -3,7 +3,7 @@
  */
 package stack.and.queue;
 
-import org.checkerframework.checker.units.qual.C;
+//import org.checkerframework.checker.units.qual.C;
 
 public class App  {
 
@@ -86,8 +86,12 @@ public class App  {
         shelter.dequeue("dog");
         System.out.println(shelter);
 
+        //    <<<< code challenge 13 >>>
 
+        ValidateBrackets a = new ValidateBrackets();
 
+        System.out.println(a.validateBrackets(")"));
+        System.out.println(a.validateBrackets("{}{{}}"));
 
 
     }

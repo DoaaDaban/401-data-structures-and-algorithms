@@ -11,7 +11,7 @@ public class BinaryTree {
         root = null;
     }
 
-    List<Integer> postOrderList = new ArrayList<>(); // FOR TEST
+    List<Integer> postOrderList = new ArrayList<>(); // FOR TEST and use it in code challenge 16
     List<Integer> inOrderList = new ArrayList<>();  // FOR TEST
     List<Integer> preOrderList = new ArrayList<>(); // FOR TEST
 
@@ -29,7 +29,7 @@ public class BinaryTree {
         postOrder(node.getRight());
 
        //  print the value
-        System.out.print(node.getKey() + " ");
+//        System.out.print(node.getKey() + " ");
         postOrderList.add(node.getKey());
     }
 
@@ -60,6 +60,29 @@ public class BinaryTree {
         preOrder(node.getLeft());
 
         preOrder(node.getRight());
+    }
+
+
+    //        <<< Code Challenge 16 >>>
+
+
+
+    public int findMaxvalue() {
+
+        if(root == null){
+            throw new IllegalArgumentException("the tree is empty");
+        }
+
+        int max = root.getKey();
+
+        postOrder(root);
+
+        for(int i = 0; i<postOrderList.size(); i++){
+            if(max<postOrderList.get(i)){
+                max = postOrderList.get(i);
+            }
+        }
+        return max;
     }
 
     public Node getRoot() {

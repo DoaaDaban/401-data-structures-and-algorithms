@@ -6,7 +6,7 @@
 
 ## Challenge
 
-This challenge about hot to build and using the **Stack** and **Queue** to store nodes in it and also how to apply methods on it like *push* method to delete node in stack and *dequeue* to delete node in queue.
+This challenge about how to build and using the **Stack** and **Queue** to store nodes in it and also how to apply methods on it like *push* method to delete node in stack and *dequeue* to delete node in queue.
 
 ###  Methods in Stack
 

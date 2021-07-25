@@ -15,3 +15,4 @@ stack-and-queue | [README](challenges/stack-and-queue/app/src/main/java/stack/an
 stack-queue-pseudo| [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README-code11.md)| [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue/PseudoQueue.java)
 stack-queue-animal-shelter| [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README-code12.md)| [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue/AnimalShelter.java)
 stack-queue-brackets | [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README-code13.md) | [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue/ValidateBrackets.java)
+trees             | [README](challenges/binary-tree/app/src/main/java/binary/tree/README.md) | [Code](challenges/binary-tree/app/src/main/java/binary/tree)

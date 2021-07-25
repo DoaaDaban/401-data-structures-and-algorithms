@@ -103,4 +103,31 @@ public class AppTest {
 
     }
 
+    //        <<< Code Challenge 16 >>>
+
+    @Test(expected = IllegalArgumentException.class)
+    public void maxValueTestempty() {
+        BinaryTree binaryTreeTest = new BinaryTree();
+
+        assertEquals(IllegalArgumentException.class,binaryTreeTest.findMaxvalue());
+
+    }
+
+    @Test
+    public void maxValueTest(){
+        BinaryTree binaryTreeTest = new BinaryTree();
+
+        binaryTreeTest.setRoot(new Node(7));
+        assertEquals(7,binaryTreeTest.findMaxvalue());
+
+        binaryTreeTest.getRoot().setLeft(new Node(9));
+        binaryTreeTest.getRoot().setRight(new Node(11));
+        assertEquals(11,binaryTreeTest.findMaxvalue());
+
+        binaryTreeTest.getRoot().getLeft().setLeft(new Node(13));
+        binaryTreeTest.getRoot().getLeft().setRight(new Node((1)));
+        assertEquals(13,binaryTreeTest.findMaxvalue());
+    }
+
+
 }

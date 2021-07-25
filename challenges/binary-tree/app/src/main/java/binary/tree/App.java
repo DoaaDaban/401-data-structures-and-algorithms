@@ -5,7 +5,8 @@ package binary.tree;
 
 public class App {
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args){
 
 //        <<< Code Challenge 15 >>>
 
@@ -13,10 +14,11 @@ public class App {
 
         System.out.println("befor " +binaryTree);
         binaryTree.setRoot(new Node(7));
-        binaryTree.getRoot().setLeft(new Node(9));
+        binaryTree.getRoot().setLeft(new Node(24));
         binaryTree.getRoot().setRight(new Node(11));
         binaryTree.getRoot().getLeft().setLeft(new Node(13));
-        binaryTree.getRoot().getLeft().setRight(new Node((1)));
+        binaryTree.getRoot().getLeft().setRight(new Node(50));
+//        binaryTree.getRoot().getLeft().setRight(new Node((1)));
 
         System.out.println(binaryTree);
 
@@ -32,11 +34,14 @@ public class App {
         System.out.println();
         System.out.println();
 
-        System.out.print("postOrder: ");
-        binaryTree.postOrder(binaryTree.getRoot());
+//        System.out.print("postOrder: ");
+//        binaryTree.postOrder(binaryTree.getRoot());
 
         System.out.println();
         System.out.println();
+
+
+
 
 //        BINARY SEARCH TREE
         BinarySearchTree binarySearchTree = new BinarySearchTree();
@@ -49,7 +54,13 @@ public class App {
         binarySearchTree.inorder();
 
         System.out.println(binarySearchTree.contains(7));
-        
+
+
+        //        <<< Code Challenge 16 >>>
+
+        System.out.println("Max value is: " + binaryTree.findMaxvalue());
+
+
 
     }
 }

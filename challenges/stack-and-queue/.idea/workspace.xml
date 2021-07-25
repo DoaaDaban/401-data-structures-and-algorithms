@@ -5,15 +5,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736e9770-f6c8-4b78-8423-c0cfc971dd24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/ValidateBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/401-data-structures-and-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/401-data-structures-and-algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array-binary-search/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../array-binary-search/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array-binary-search/array-binary-search.java" beforeDir="false" afterPath="$PROJECT_DIR$/../array-binary-search/array-binary-search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array-binary-search/code-challenge-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../array-binary-search/code-challenge-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array-insert-shift/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/../array-insert-shift/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array-insert-shift/array-insert-shift.java" beforeDir="false" afterPath="$PROJECT_DIR$/../array-insert-shift/array-insert-shift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array-insert-shift/insertShiftArray .png" beforeDir="false" afterPath="$PROJECT_DIR$/../array-insert-shift/insertShiftArray .png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/libraries-with-intellij-classes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linked-list/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/README-code-6.md" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/README-code-6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/README-code-7.md" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/README-code-7.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/README-code-8.md" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/README-code-8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/cdoe-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/cdoe-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/code-06-addNodeAfter.png" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/code-06-addNodeAfter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/code-06-addNodeAtTheEnd.png" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/code-06-addNodeAtTheEnd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/code-06-addNodeBefore.png" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/code-06-addNodeBefore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/code-08-linked-list-zip.png" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/main/java/linkedList/image/code-08-linked-list-zip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/lib/src/test/java/linkedList/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/lib/src/test/java/linkedList/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverse-array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../reverse-array/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverse-array/Screenshot (41).png" beforeDir="false" afterPath="$PROJECT_DIR$/../reverse-array/Screenshot (41).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverse-array/reverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reverse-array/reverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/.idea/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/AnimalShelter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/DuckDuckGoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/DuckDuckGoose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/PseudoQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/README-code11.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/README-code11.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/README-code12.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/README-code12.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/README-code13.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/README-code13.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/ValidateBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/ValidateBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/images/code-challenge-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/images/code-challenge-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/images/code-challenge-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/images/code-challenge-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/images/code-challenge-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stack/and/queue/images/code-challenge-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/stack/and/queue/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/stack/and/queue/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../binary-tree" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />

@@ -17,8 +17,11 @@ public class App {
         binaryTree.getRoot().setLeft(new Node(24));
         binaryTree.getRoot().setRight(new Node(11));
         binaryTree.getRoot().getLeft().setLeft(new Node(13));
+        binaryTree.getRoot().getLeft().getLeft().setLeft(new Node(100));
         binaryTree.getRoot().getLeft().setRight(new Node(50));
-//        binaryTree.getRoot().getLeft().setRight(new Node((1)));
+        binaryTree.getRoot().getRight().setRight(new Node((1)));
+        binaryTree.getRoot().getRight().getRight().setRight(new Node(101));
+        binaryTree.getRoot().getRight().setLeft(new Node((2)));
 
         System.out.println(binaryTree);
 
@@ -34,8 +37,8 @@ public class App {
         System.out.println();
         System.out.println();
 
-//        System.out.print("postOrder: ");
-//        binaryTree.postOrder(binaryTree.getRoot());
+        System.out.print("postOrder: ");
+        binaryTree.postOrder(binaryTree.getRoot());
 
         System.out.println();
         System.out.println();
@@ -59,6 +62,10 @@ public class App {
         //        <<< Code Challenge 16 >>>
 
         System.out.println("Max value is: " + binaryTree.findMaxvalue());
+
+        //        <<< Code Challenge 17 >>>
+
+        System.out.println(binaryTree.breadthFirst(binaryTree));
 
 
 

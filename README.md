@@ -17,3 +17,4 @@ stack-queue-animal-shelter| [README](challenges/stack-and-queue/app/src/main/jav
 stack-queue-brackets | [README](challenges/stack-and-queue/app/src/main/java/stack/and/queue/README-code13.md) | [Code](challenges/stack-and-queue/app/src/main/java/stack/and/queue/ValidateBrackets.java)
 trees             | [README](challenges/binary-tree/app/src/main/java/binary/tree/README.md) | [Code](challenges/binary-tree/app/src/main/java/binary/tree)
 tree-max         | [README](challenges/binary-tree/app/src/main/java/binary/tree/README-code-16.md) | [Code](challenges/binary-tree/app/src/main/java/binary/tree/BinaryTree.java)
+tree-breadth-first| [README](challenges/binary-tree/app/src/main/java/binary/tree/README-code-17.md)| [Code](challenges/binary-tree/app/src/main/java/binary/tree/BinaryTree.java)

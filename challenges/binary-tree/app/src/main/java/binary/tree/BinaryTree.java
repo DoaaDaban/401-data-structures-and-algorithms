@@ -1,7 +1,9 @@
 package binary.tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class BinaryTree {
 
@@ -29,7 +31,7 @@ public class BinaryTree {
         postOrder(node.getRight());
 
        //  print the value
-//        System.out.print(node.getKey() + " ");
+        System.out.print(node.getKey() + " ");
         postOrderList.add(node.getKey());
     }
 
@@ -84,6 +86,37 @@ public class BinaryTree {
         }
         return max;
     }
+
+
+    //        <<< Code Challenge 17 >>>
+
+    public ArrayList breadthFirst(BinaryTree tree) {
+
+        if (tree.getRoot() == null) {
+            return null;
+        }
+
+        LinkedList<Node> nodes = new LinkedList<>() ;
+        ArrayList<Integer> finalNodes = new ArrayList<>();
+
+        nodes.add(tree.getRoot());
+
+        while (!nodes.isEmpty()) {
+
+            Node node = nodes.remove();
+            finalNodes.add(node.getKey());
+
+            if (node.getLeft() != null) {
+                nodes.add(node.getLeft());
+            }
+
+            if (node.getRight() != null) {
+                nodes.add(node.getRight());
+            }
+        }
+        return finalNodes;
+    }
+
 
     public Node getRoot() {
         return root;

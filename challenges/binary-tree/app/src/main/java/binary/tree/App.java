@@ -13,15 +13,45 @@ public class App {
         BinaryTree binaryTree = new BinaryTree();
 
         System.out.println("befor " +binaryTree);
-        binaryTree.setRoot(new Node(7));
-        binaryTree.getRoot().setLeft(new Node(24));
-        binaryTree.getRoot().setRight(new Node(11));
-        binaryTree.getRoot().getLeft().setLeft(new Node(13));
-        binaryTree.getRoot().getLeft().getLeft().setLeft(new Node(100));
-        binaryTree.getRoot().getLeft().setRight(new Node(50));
-        binaryTree.getRoot().getRight().setRight(new Node((1)));
-        binaryTree.getRoot().getRight().getRight().setRight(new Node(101));
-        binaryTree.getRoot().getRight().setLeft(new Node((2)));
+//        binaryTree.setRoot(new Node(7));
+//        binaryTree.getRoot().setLeft(new Node(23));
+//        binaryTree.getRoot().setRight(new Node(11));
+//        binaryTree.getRoot().getLeft().setLeft(new Node(13));
+//        binaryTree.getRoot().getLeft().getLeft().setLeft(new Node(100));
+//        binaryTree.getRoot().getLeft().setRight(new Node(50));
+//        binaryTree.getRoot().getRight().setRight(new Node((1)));
+//        binaryTree.getRoot().getRight().getRight().setRight(new Node(101));
+//        binaryTree.getRoot().getRight().setLeft(new Node((2)));
+        binaryTree.setRoot(new Node(1));
+        binaryTree.getRoot().setLeft(new Node(2));
+        binaryTree.getRoot().getLeft().setLeft(new Node(4));
+        binaryTree.getRoot().getLeft().setRight(new Node(5));
+        binaryTree.getRoot().getLeft().getRight().setLeft(new Node(6));
+        binaryTree.getRoot().getLeft().getRight().setRight(new Node(7));
+        binaryTree.getRoot().setRight(new Node(3));
+        binaryTree.getRoot().getRight().setRight(new Node(8));
+//        binaryTree.getRoot().getRight().getRight().setRight(new Node(10));
+        binaryTree.getRoot().getRight().getRight().setLeft(new Node(9));
+
+
+
+
+        BinaryTree binaryTree1 = new BinaryTree();
+        binaryTree1.setRoot(new Node(1));
+        binaryTree1.getRoot().setLeft(new Node(2));
+        binaryTree1.getRoot().setRight(new Node(3));
+        binaryTree1.getRoot().getLeft().setLeft(new Node(4));
+//        binaryTree1.getRoot().getLeft().getLeft().setLeft(new Node(6));
+        binaryTree1.getRoot().getLeft().getLeft().setRight(new Node(7));
+        binaryTree1.getRoot().getRight().setRight(new Node(5));
+        binaryTree1.getRoot().getRight().setLeft(new Node(5));
+        binaryTree1.getRoot().getRight().getRight().setLeft(new Node(9));
+//        binaryTree1.getRoot().getRight().getRight().setLeft(new Node(8));
+//        binaryTree1.getRoot().getRight().getRight().getRight().setRight(new Node(11));
+//        binaryTree1.getRoot().getRight().getRight().getRight().setLeft(new Node(10));
+////        binaryTree1.getRoot().getRight().getRight().setRight(new Node(101));
+//        binaryTree1.getRoot().getRight().setLeft(new Node((2)));
+
 
         System.out.println(binaryTree);
 
@@ -31,14 +61,14 @@ public class App {
         System.out.println();
         System.out.println();
 
-        System.out.print("preOrder: ");
-        binaryTree.preOrder(binaryTree.getRoot());
+//        System.out.print("preOrder: ");
+//        binaryTree.preOrder(binaryTree.getRoot());
 
         System.out.println();
         System.out.println();
 
-        System.out.print("postOrder: ");
-        binaryTree.postOrder(binaryTree.getRoot());
+//        System.out.print("postOrder: ");
+//        binaryTree.postOrder(binaryTree.getRoot());
 
         System.out.println();
         System.out.println();
@@ -61,13 +91,17 @@ public class App {
 
         //        <<< Code Challenge 16 >>>
 
-        System.out.println("Max value is: " + binaryTree.findMaxvalue());
+//        System.out.println("Max value is: " + binaryTree.findMaxvalue());
 
         //        <<< Code Challenge 17 >>>
 
         System.out.println(binaryTree.breadthFirst(binaryTree));
+        System.out.println(binaryTree1.breadthFirst(binaryTree1));
 
+        System.out.println("sum" + binaryTree.sumOddValues(binaryTree));
 
+        //        <<< Code Challenge 19 >>>
+        System.out.println(binaryTree.isEqual(binaryTree1,binaryTree));
 
     }
 }

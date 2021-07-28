@@ -117,6 +117,50 @@ public class BinaryTree {
         return finalNodes;
     }
 
+    //        <<< Code Challenge 19 - question-1 >>>
+
+    public int sumOddValues(BinaryTree tree) {
+
+        if(root == null){
+            throw new IllegalArgumentException("the tree is empty");
+        }
+
+        int oddSum = 0;
+        postOrder(tree.getRoot());
+
+
+        for(int i = 0; i<postOrderList.size(); i++){
+            if(postOrderList.get(i) % 2 != 0){
+                oddSum = postOrderList.get(i) + oddSum;
+            }
+        }
+        return oddSum;
+    }
+
+    //        <<< Code Challenge 19 - question-2 >>>
+    List total = new ArrayList();
+
+    public  void checkNodes(Node node){
+        if(node == null){return;}
+
+        if(node.getLeft() == null && node.getRight() == null){
+            total.add(1);
+        }
+        checkNodes(node.getLeft());
+        checkNodes(node.getRight());
+    }
+
+    public boolean isEqual(BinaryTree tree1, BinaryTree tree2){
+        checkNodes(tree1.getRoot());
+        checkNodes(tree2.getRoot());
+        if (total.size() % 2 == 0){
+            return true;
+        }else{
+
+            return false;
+        }
+    }
+
 
     public Node getRoot() {
         return root;

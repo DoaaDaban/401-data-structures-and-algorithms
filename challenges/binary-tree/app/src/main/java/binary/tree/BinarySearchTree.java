@@ -20,7 +20,7 @@ public class BinarySearchTree {
 
     private void traverse (Node current, int key){
 
-        if(key > current.getKey()){
+        if(key > (int) current.getKey()){
             if(current.getRight() == null){
                 current.setRight(new Node(key));
                 return;
@@ -51,9 +51,9 @@ public class BinarySearchTree {
 
     public boolean contains(int key){
         while (root != null) {
-            if (key > root.getKey())
+            if (key > (int) root.getKey())
                 root = root.getRight();
-            else if (key < root.getKey())
+            else if (key < (int) root.getKey())
                 root = root.getLeft();
             else
                 return true;

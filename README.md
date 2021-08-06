@@ -18,3 +18,4 @@ stack-queue-brackets | [README](challenges/stack-and-queue/app/src/main/java/sta
 trees             | [README](challenges/binary-tree/app/src/main/java/binary/tree/README.md) | [Code](challenges/binary-tree/app/src/main/java/binary/tree)
 tree-max         | [README](challenges/binary-tree/app/src/main/java/binary/tree/README-code-16.md) | [Code](challenges/binary-tree/app/src/main/java/binary/tree/BinaryTree.java)
 tree-breadth-first| [README](challenges/binary-tree/app/src/main/java/binary/tree/README-code-17.md)| [Code](challenges/binary-tree/app/src/main/java/binary/tree/BinaryTree.java)
+tree-fizz-buzz| [README](challenges/binary-tree/app/src/main/java/binary/tree/README-code-18.md)| [Code](challenges/binary-tree/app/src/main/java/binary/tree/kTree)

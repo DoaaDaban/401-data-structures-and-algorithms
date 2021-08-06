@@ -3,6 +3,8 @@
  */
 package binary.tree;
 
+import binary.tree.kTree.KTree;
+
 public class App {
 
 
@@ -102,6 +104,19 @@ public class App {
 
         //        <<< Code Challenge 19 >>>
         System.out.println(binaryTree.isEqual(binaryTree1,binaryTree));
+
+        //        <<< Code Challenge 18 >>>
+
+        KTree kTree = new KTree(1);
+
+        kTree.add(1);
+        kTree.add(2);
+        kTree.add(3);
+        kTree.add(5);
+        kTree.add(15);
+
+        System.out.println(kTree);
+        System.out.println(kTree.fizzBuzzTree(kTree));
 
     }
 }

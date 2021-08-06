@@ -2,16 +2,16 @@ package binary.tree;
 
 public class Node<T> {
 
-    private final int key;
+    private final T key;
     private Node <T> left;
     private Node <T> right;
 
-    public Node(int key) {
+    public Node(T key) {
         this.key = key;
         left = right = null;
     }
 
-    public int getKey() {
+    public T getKey() {
         return key;
     }
 

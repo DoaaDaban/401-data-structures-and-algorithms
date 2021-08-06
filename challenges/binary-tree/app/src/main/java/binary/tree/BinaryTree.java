@@ -32,7 +32,7 @@ public class BinaryTree {
 
        //  print the value
         System.out.print(node.getKey() + " ");
-        postOrderList.add(node.getKey());
+        postOrderList.add((Integer) node.getKey());
     }
 
     public void inOrder(Node node ){
@@ -44,7 +44,7 @@ public class BinaryTree {
         inOrder(node.getLeft());
 
         System.out.print(node.getKey()+" ");
-        inOrderList.add(node.getKey());
+        inOrderList.add((Integer) node.getKey());
 
         inOrder(node.getRight());
 
@@ -57,7 +57,7 @@ public class BinaryTree {
         }
 
         System.out.print(node.getKey() + " ");
-        preOrderList.add(node.getKey());
+        preOrderList.add((Integer) node.getKey());
 
         preOrder(node.getLeft());
 
@@ -75,7 +75,7 @@ public class BinaryTree {
             throw new IllegalArgumentException("the tree is empty");
         }
 
-        int max = root.getKey();
+        int max = (int) root.getKey();
 
         postOrder(root);
 
@@ -104,7 +104,7 @@ public class BinaryTree {
         while (!nodes.isEmpty()) {
 
             Node node = nodes.remove();
-            finalNodes.add(node.getKey());
+            finalNodes.add((Integer) node.getKey());
 
             if (node.getLeft() != null) {
                 nodes.add(node.getLeft());
@@ -160,6 +160,7 @@ public class BinaryTree {
             return false;
         }
     }
+
 
 
     public Node getRoot() {

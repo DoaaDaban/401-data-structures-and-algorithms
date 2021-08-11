@@ -72,6 +72,6 @@ public class InsertionSort {
 
 ### Pass 5:
 
-![Pass 5](/Sort/app/src/main/java/Sort/Insertion/images/code-challenge-26-pass5png.png)
+![Pass 5](/Sort/app/src/main/java/Sort/Insertion/images/code-challenge-26-pass5.png)
 
 * Here the temp value will be 15. This stage will be in three steps. The first step will swap between 15 and 42 and the second step it will swap between 15 and 23 and the last step it will swap between 15 and 16.

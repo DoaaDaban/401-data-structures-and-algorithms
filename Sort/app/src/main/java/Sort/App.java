@@ -4,6 +4,7 @@
 package Sort;
 
 import Sort.Insertion.InsertionSort;
+import Sort.Merge.MergeSort;
 
 import java.util.Arrays;
 
@@ -19,5 +20,15 @@ public class App {
         insertionSort.insertionSort(arr);
 
         System.out.println(Arrays.toString(arr));
+
+        //        <<< COde Challenge 27 >>>
+
+        int [] mergeArr = {8, 4, 23, 42, 16, 15};
+        MergeSort mergeSort = new MergeSort();
+
+        mergeSort.mergeSort(mergeArr);
+        System.out.println("Merge Array " + Arrays.toString(mergeArr));
     }
+
+
 }

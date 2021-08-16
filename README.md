@@ -21,3 +21,4 @@ tree-breadth-first| [README](challenges/binary-tree/app/src/main/java/binary/tre
 tree-fizz-buzz| [README](challenges/binary-tree/app/src/main/java/binary/tree/README-code-18.md)| [Code](challenges/binary-tree/app/src/main/java/binary/tree/kTree)
 insertion-sort| [README](Sort/app/src/main/java/Sort/Insertion/BLOG.md)| [Code](Sort/app/src/main/java/Sort/Insertion/InsertionSort.java)
 marge-sort| [README](Sort/app/src/main/java/Sort/Merge/BLOG.md)| [Code](Sort/app/src/main/java/Sort/Merge/MergeSort.java)
+quick-sort| [README](Sort/app/src/main/java/Sort/Quick/BLOG.md)| [Code](Sort/app/src/main/java/Sort/Quick/QuickSort.java)

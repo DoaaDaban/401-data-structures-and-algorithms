@@ -1,7 +1,7 @@
 package linkedList;
 
 public class Node<T>{
-    private T data;
+    public T data;
     public Node next;
 
     public Node(T data) {
@@ -10,5 +10,12 @@ public class Node<T>{
 
     public T getData() {
         return data;
+    }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "data=" + data +
+                '}';
     }
 }

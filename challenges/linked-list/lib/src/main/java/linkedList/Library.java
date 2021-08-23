@@ -63,10 +63,13 @@ public class Library {
         LinkedList<Integer> linkedList2 = new LinkedList<>();
 
         linkedList1.insert(1);
-        linkedList1.insert(2);
-        linkedList2.insert(3);
+        linkedList1.insert(9);
+        linkedList2.insert(20);
         linkedList2.insert(4);
         linkedList2.insert(5);
+        linkedList2.insert(6);
+        linkedList2.insert(7);
+        linkedList2.insert(8);
 //        linkedList2.insert(6);
 
         System.out.println("lis1 "+linkedList1.stringPath());
@@ -74,6 +77,14 @@ public class Library {
 
         zipLists(linkedList1, linkedList2);
         System.out.println("zipLists "+zipLists(linkedList1, linkedList2).stringPath());
+
+//        System.out.println("isPalindrome " + linkedList2.isPalindrome(linkedList2.head));
+        System.out.println("afterdelete "+ linkedList2.stringPath());
+        Node delete = linkedList2.deleteMid(linkedList2.head);
+
+        System.out.println("delete the middle " + delete.toString());
+        System.out.println("after " + linkedList2.stringPath());
+
 
     }
 }

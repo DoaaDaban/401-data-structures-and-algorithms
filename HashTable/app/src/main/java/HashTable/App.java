@@ -6,9 +6,7 @@ package HashTable;
 import HashTable.binaryTree.BinaryTree;
 import HashTable.binaryTree.Node;
 
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.Map;
+import java.util.*;
 
 public class App {
 
@@ -31,8 +29,9 @@ public class App {
    }}
    return true;
   }
+  
 
-    public static void main(String[] args) {
+ public static void main(String[] args) {
 
        HashTable<String, Integer> clubs = new HashTable<String, Integer>();
 

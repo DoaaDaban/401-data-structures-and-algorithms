@@ -82,14 +82,21 @@ public class Graph {
         return visited;
     }
 
-    Set<String> breadthTraverse(Graph graph, String root) {
+
+    public List<Vertex> getNeighbors(String data) {
+        return adjVertices.get(new Vertex(data));
+    }
+
+//    <<< Code Challenge 36 >>>
+
+    Set<String> breadthTraverse( String root) {
         Set<String> visited = new LinkedHashSet<>();
         Queue<String> queue = new LinkedList<>();
         queue.add(root);
         visited.add(root);
         while (!queue.isEmpty()) {
             String vertex = queue.poll();
-            for (Vertex v : graph.getNeighbors(vertex)) {
+            for (Vertex v : getNeighbors(vertex)) {
                 if (!visited.contains(v.data)) {
                     visited.add(v.data);
                     queue.add(v.data);
@@ -97,9 +104,5 @@ public class Graph {
             }
         }
         return visited;
-    }
-
-    public List<Vertex> getNeighbors(String data) {
-        return adjVertices.get(new Vertex(data));
     }
 }

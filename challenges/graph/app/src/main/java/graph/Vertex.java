@@ -5,16 +5,22 @@ import java.util.Objects;
 public class Vertex {
 
     public String data;
+    public int weight ;
 
     public Vertex(String data) {
         this.data = data;
     }
 
+    public Vertex(String data, int weight) {
+        this.data = data;
+        this.weight = weight;
+    }
 
     @Override
     public String toString() {
         return "Vertex{" +
-                "label='" + data + '\'' +
+                "label='" + data + '\'' + ',' +
+                " weight=" + weight +
                 '}';
     }
 
